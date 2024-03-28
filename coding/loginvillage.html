@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>เพจจัดการขยะ</title>
+  <title>loginvillage</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -16,28 +16,35 @@
                 <div class="col-sm-6"></div>
                 <div class="col-sm-6 text-right">
                     <a class="navbar-brand text-light" href="register.html">ลงทะเบียน</a>
+                    <a class="navbar-brand text-light" href="index.html">กลับ</a>
                 </div>
             </div>
         </div>
-
     </nav>
 
-    <main class="center">
-        <div class="flex-container">
-            <img src="user.png"   width="150" height="150" class="mx-5">
-            <img src="village.png"  width="150" height="150" class="mx-3">
+    <div class="container">
+        <div class="center">
+            <div class="p-1 text-center">
+                <img src="village.png" width="150px" height="150px">
+                <br><br>
+                <label>เข้าสู่ระบบกรรมการหมู่บ้าน</label>
+                <br><br>
+                <input type="text"  placeholder="ชื่อสมาชิก" class="form-control rounded-pill" >
+                <br>
+                <input type="text"  placeholder="รหัสสมาชิก" class="form-control rounded-pill">
+                <br><br>
+                <div class="">
+                <button class="btn-outline-success" >เข้าสู่ระบบ</button>
+                <button class="btn-outline-secondary">ยกเลิก</button>
+                </div>
+                
+            </div>
         </div>
-        <br>
-        <div class="flex-container">
-            <a class="p-1 mx-5" href="loginuser.html">เข้าสู่ระบบสมาชิก</a>
-            <a class="p-1 mx-3" href="loginvillage.html">เข้าสู่ระบบกรรมการหมู่บ้าน</a>
-        </div>
-        
-    </main>
-
-    <footer class=" tagcolor text-center p-4 ">
+    </div>
+    <br><br><br>
+    <div class=" tagcolor text-center p-4 ">
         <p>ธนาคารขยะ เพื่อฌาปณกิจศพ โดยเทศบาลตำบลสามง่ามพัฒนาอำเภอหันคา จังหวัดชัยนาท</p>
-    </footer>
+    </div>
     
 </body>
 </html>
